@@ -57,25 +57,35 @@
 
     .todo {
         color: black!important;
-
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
     }
 
     .todo h1 {
         font-size: 36px;
     }
 
-    .input {
-        padding: 10px 0 10px 0;
-        margin: 10px 0 10px 0;
+    .task {
+        background-color: #fff;
+        padding: 10px;
+        margin-bottom: 5px;
     }
 
-    .task > button {
-        position: absolute;
-        right: 790px;
-        top: 186px;
-        background-color: #fff;
-        font-size: 20px;
+    .input {
+        width: 315px;
         border: none;
+        font-size: 24px;
+        background: #fff;
+        color: #2f4f4f;
+    }
+
+    button {
+        background: #fff;
+        border: none;
+        color: #497BE8;
     }
 
     .fa {
