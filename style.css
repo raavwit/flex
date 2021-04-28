@@ -31,7 +31,7 @@
     .nav-menu li > a {
         text-decoration: none;
         transition-property: color;
-        transition-duration: 0.5s;
+        transition-duration: 0.4s;
         color: #000;
         font-size: 25px;
         border-right: dashed 1px black;
@@ -45,7 +45,7 @@
 
 .main {
     background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
-    color: white;
+    color: black;
     margin: 20px;
     text-align: center;
     font-size: 14px;
@@ -57,7 +57,6 @@
 
     .todo {
         color: black!important;
-        width: 400px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -69,13 +68,14 @@
     }
 
     .task {
+        width: 500px;
         background-color: #fff;
         padding: 10px;
         margin-bottom: 5px;
     }
 
     .input {
-        width: 315px;
+        width: 410px;
         border: none;
         font-size: 24px;
         background: #fff;
@@ -88,75 +88,75 @@
         color: #497BE8;
     }
 
-    .fa {
-        color: blue;
-        background: linear-gradient(to bottom, #68EACC 0%, #23ab21 100%);
-        display: flex;
-        justify-content: space-between;
+.fa {
+    color: blue;
+    background: linear-gradient(to bottom, #68EACC 0%, #23ab21 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-copyright {
+    padding: 10px;
+    font-size: 18px;
+}
+
+    .useful {
+        color: white;
+        font-size: 18px;
+     }
+
+    .copy {
+        margin: 15px;
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
+     }
+
+    .feed {
+        color: white;
+        font-size: 18px;
+        padding-left: 155px;
+     }
+
+    .adv a {
+        padding-left: 155px;
     }
 
-    .fa-copyright {
-        padding: 10px;
+    .adv {
+        color: black;
+        margin: 5px;
+    }
+
+    .adv > a {
+        color: black;
+        text-decoration: none;
+        transition-property: color;
+        transition-duration: 0.4s;
+    }
+
+    .adv > a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .feed2 {
+        color: white;
         font-size: 18px;
     }
 
-        .useful {
-            color: white;
-            font-size: 18px;
-        }
+    .adv2 {
+        color: black;
+        margin: 5px;
+    }
 
-        .copy {
-            margin: 15px;
-            color: white;
-            font-size: 22px;
-            cursor: pointer;
-        }
+    .adv2 > a {
+        color: black;
+        text-decoration: none;
+        transition-property: color;
+        transition-duration: 0.4s;
+    }
 
-        .feed {
-            color: white;
-            font-size: 18px;
-            padding-left: 155px;
-        }
-
-        .adv a {
-            padding-left: 155px;
-        }
-
-        .adv {
-            color: black;
-            margin: 5px;
-        }
-
-        .adv > a {
-            color: black;
-            text-decoration: none;
-            transition-property: color;
-            transition-duration: 0.5s;
-        }
-
-        .adv > a:hover {
-            color: white;
-            text-decoration: underline;
-        }
-
-        .feed2 {
-            color: white;
-            font-size: 18px;
-        }
-
-        .adv2 {
-            color: black;
-            margin: 5px;
-        }
-
-        .adv2 > a {
-            color: black;
-            text-decoration: none;
-            transition-property: color;
-            transition-duration: 0.5s;
-        }
-
-        .adv2 > a:hover {
-            color: white;
-            text-decoration: underline;
-        }
+    .adv2 > a:hover {
+        color: white;
+        text-decoration: underline;
+    }
