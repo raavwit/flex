@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+.head {
+    background: linear-gradient(to bottom, #68EACC 0%, #23ab21 100%);
+    opacity: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 10px;
+    padding-left: 150px;
+}
+
+    .nav-menu {
+        font-size: 20px;
+        padding-right: 150px;
+    }
+
+    .nav-menu > ul {
+        padding: 35px;
+        list-style-type: none;
+        display: flex;
+    }
+
+    .nav-menu li > a {
+        text-decoration: none;
+        transition-property: color;
+        transition-duration: 0.7s;
+        color: #000;
+        font-size: 25px;
+        border-right: dashed 1px black;
+        padding: 10px;
+    }
+
+    .nav-menu li > a:hover {
+        text-decoration: underline;
+        color: #fff;
+    }
+
+.main {
+    background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+    color: white;
+    margin: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Nunito';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    .todo {
+        color: black!important;
+
+    }
+
+    .todo h1 {
+        font-size: 36px;
+    }
+
+    .input {
+        padding: 10px 0 10px 0;
+        margin: 10px 0 10px 0;
+    }
+
+    .task > button {
+        position: absolute;
+        right: 790px;
+        top: 186px;
+        background-color: #fff;
+        font-size: 20px;
+        border: none;
+    }
+
+    .fa {
+        color: blue;
+        background: linear-gradient(to bottom, #68EACC 0%, #23ab21 100%);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fa-copyright {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+        .useful {
+            color: white;
+            font-size: 18px;
+        }
+
+        .copy {
+            margin: 15px;
+            color: white;
+            font-size: 22px;
+            cursor: pointer;
+        }
+
+        .feed {
+            color: white;
+            font-size: 18px;
+            padding-left: 155px;
+        }
+
+        .adv a {
+            padding-left: 155px;
+        }
+
+        .adv {
+            color: black;
+            margin: 5px;
+        }
+
+        .adv > a {
+            color: black;
+            text-decoration: none;
+            transition-property: color;
+            transition-duration: 1s;
+        }
+
+        .adv > a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .feed2 {
+            color: white;
+            font-size: 18px;
+        }
+
+        .adv2 {
+            color: black;
+            margin: 5px;
+        }
+
+        .adv2 > a {
+            color: black;
+            text-decoration: none;
+            transition-property: color;
+            transition-duration: 1s;
+        }
+
+        .adv2 > a:hover {
+            color: white;
+            text-decoration: underline;
+        }
